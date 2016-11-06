@@ -6,7 +6,7 @@ MAINTAINER Jks
 RUN add-apt-repository ppa:jcfp/ppa
 RUN apt-get update
 #RUN apt-get install -y sabnzbdplus sabnzbdplus-theme-classic sabnzbdplus-theme-mobile sabnzbdplus-theme-plush
-RUN apt-get install -y sabnzbdplus sabnzbdplus-theme-classic sabnzbdplus-theme-mobile sabnzbdplus-theme-plush
+RUN apt-get install -y sabnzbdplus
 
 
 # Create sabnzb user. Test uid = user host
